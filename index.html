@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+<div class="app-container" id="taskList">
+  <h1 class="app-header">TO DO LIST</h1>
+  <div class="add-task">
+    <form action="/getdata" method="post">
+    <input type="text" name="todo" placeholder="Add New Task"   class="task-input" id="txt">
+		<input type="button" value="" class="submit-task"  title="Add Task" id="add">
+    </form>
+  </div>
+  
+  <div id="mainDiv"></div>
+
+  <script src="script.js"></script>
+</div>
+</body>
+</html>
